@@ -1,0 +1,40 @@
+.modal-header {
+  background-color: #2e2d2d;
+  color: white;
+  font-size: 36px;
+  padding-left: 8%;
+  padding-top: 7%;
+}
+.modal-content {
+  background-color: #1f1f1f !important;
+}
+.modal-body {
+  background-color: #2e2d2d;
+  outline: none !important;
+}
+
+#button-form-login {
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  font-family: Avenir;
+  font-weight: 900px;
+}
+
+#button-form-login:focus {
+  outline: none !important;
+}
+#button-form-login:hover {
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+}
+
+.here-to-register {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.here-to-register {
+  font-weight: bold;
+  cursor: pointer;
+}

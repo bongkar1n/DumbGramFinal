@@ -1,0 +1,117 @@
+.bar {
+  height: 50px;
+  background-color: #0b0b0b !important;
+}
+
+.main-logo {
+  width: 50%;
+}
+
+.bg-card {
+  background-color: #0b0b0b !important;
+}
+
+.icon-edit {
+  color: #ababab;
+}
+
+.logo-profile {
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
+}
+
+.circle {
+  width: 130px;
+  height: 130px;
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+
+  margin-left: 37%;
+}
+
+.profile-name {
+  color: white;
+  font-size: 37px;
+}
+
+.username {
+  color: #ababab;
+  margin-top: -4px;
+  font-size: 18px;
+}
+
+.follow-status {
+  color: #ababab;
+}
+
+.panel {
+  border-right: 1px solid rgba(106, 106, 106, 0.3);
+  height: 60px;
+  font-size: 20px;
+}
+
+.last-panel {
+  height: 60px;
+  font-size: 20px;
+}
+
+.amount {
+  margin-top: -10px;
+  color: white;
+  font-size: 20px;
+}
+
+.menu {
+  border-top: 1px solid rgba(106, 106, 106, 0.3);
+  border-bottom: 1px solid rgba(106, 106, 106, 0.3);
+  text-align: left;
+  margin-left: 10%;
+  font-size: 18px;
+  width: 84%;
+  padding-top: 26px;
+  padding-bottom: 15px;
+  margin-top: 30px;
+}
+
+/* buat navbar */
+
+.icon-feed {
+  color: #ababab;
+}
+/* 
+    .feed-title {
+    color: white;
+    margin-left: -10%;
+    font-size: 14px;
+    text-decoration: none;
+    } */
+
+.feed-option {
+  color: #ababab;
+  margin-left: 2%;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.icon-explore {
+  color: #ababab;
+}
+
+.logout {
+  text-align: left;
+  margin-left: 12%;
+  font-size: 18px;
+  padding-top: 23px;
+}
+
+.icon-logout {
+  color: #ababab;
+  text-align: left;
+}
+
+.logout-title {
+  color: #ababab;
+  font-size: 20px;
+  margin-top: 200px;
+  margin-left: 0%;
+}

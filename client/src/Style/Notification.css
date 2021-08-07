@@ -1,0 +1,72 @@
+.icon-notification {
+  cursor: pointer;
+}
+.container-notif {
+  color: rgb(255, 255, 255);
+}
+
+.card-notif {
+  background-color: #1f1f1f;
+  border: none;
+  display: flex;
+}
+
+.ant-popover-inner {
+  background-color: #1f1f1f;
+  width: 257px;
+  border-radius: 30px;
+}
+
+.ant-popover-title {
+  color: #1f1f1f;
+}
+
+.ant-popover-arrow {
+  position: fixed;
+  background-color: #1f1f1f;
+}
+.ant-popover-arrow-content {
+  background-color: #1f1f1f !important;
+}
+
+.ant-popover-inner-content {
+  background-color: #1f1f1f;
+}
+
+.oval-notif {
+  margin-top: 2px;
+  width: 30px;
+  height: 29px;
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+  border-radius: 50px;
+}
+
+.profil-notif {
+  width: 25px;
+  height: 25px;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+
+.start-notif {
+  display: flex;
+  font-size: 12px;
+}
+
+.profil-notif {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+
+.name-notif {
+  position: absolute;
+  margin-top: -15px;
+  font-size: 15px;
+}
+
+.comment-notif {
+  color: #acacac;
+}

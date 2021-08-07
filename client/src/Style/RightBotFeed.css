@@ -1,0 +1,91 @@
+.card-feed {
+  background-color: #0b0b0b;
+  justify-content: space-around;
+  border: 1px solid #2e2d2d;
+  cursor: pointer !important;
+}
+
+.img-feed {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.amount-like {
+  padding-right: 20px;
+  text-align: end;
+}
+.card-profiles-user {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+  object-fit: cover;
+}
+
+.container-profile-image {
+  width: 70px;
+  height: 70px;
+}
+
+.username-profile {
+  margin-left: -30px;
+  padding-left: 5px;
+  margin-top: 20px;
+}
+
+.icon-icon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.masonry-holder {
+  columns: 3;
+  column-gap: 12px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.masonry-holder .card-feed {
+  display: inline-block;
+  margin-bottom: -2%;
+}
+
+.main-modal {
+  height: 800px !important;
+  border-radius: 20px;
+}
+
+.modal-body {
+  outline-color: #2e2d2d !important;
+  background-color: #2e2d2d;
+  border-radius: 10px !important;
+  padding: 0;
+}
+
+.main-card {
+  background-color: #2e2d2d;
+  border-radius: 10px;
+  outline-color: #2e2d2d !important;
+}
+
+.card-profiles {
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 7.5%;
+  border-radius: 50%;
+}
+
+.container-right-detail {
+  justify-content: center;
+}
+
+.logo-detail-feed {
+  justify-content: center !important;
+  padding: 0;
+  height: 100px;
+  width: 60px;
+}
+
+.name-detail-feed {
+  justify-content: left;
+}

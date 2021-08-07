@@ -1,0 +1,53 @@
+.find-feeds {
+  width: 450px !important;
+  background-color: rgba(210, 210, 210, 0.25);
+  border: none;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.main-title-feed {
+  font-family: Avenir;
+  position: absolute;
+  font-size: 40px;
+  margin-top: 150px !important;
+}
+
+.notif-bar {
+  background-color: #0b0b0b;
+  margin-left: 30%;
+  padding-bottom: 50px;
+}
+
+.icon-notification {
+  color: #ababab;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.post-button {
+  margin-top: 5px;
+  width: 130px;
+  height: 40px;
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+  border: none;
+  font-size: 14px;
+}
+
+.icon-plus {
+  font-size: 12px;
+}
+
+.plus {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 7px !important;
+  padding-left: 7px !important;
+}
+
+.create {
+  margin-top: -30px !important;
+}

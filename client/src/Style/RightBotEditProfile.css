@@ -1,0 +1,84 @@
+input.input-button-edit-profile {
+  max-width: 170px;
+}
+
+.input-button-edit-profile {
+  color: transparent;
+}
+
+.input-button-edit-profile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.input-button-edit-profile::before {
+  content: "Upload Profile Photo";
+  display: inline-block;
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+.input-button-edit-profile:hover::before {
+  border-color: black;
+}
+
+.input-button-edit-profile:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.post-button {
+  position: relative;
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  top: 25px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.post-button-edit-profile {
+  position: relative;
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  top: 25px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.post-button-2 {
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  top: 25px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0em;
+
+  float: right;
+  display: block;
+}

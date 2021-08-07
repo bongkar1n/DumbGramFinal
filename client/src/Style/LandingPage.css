@@ -1,0 +1,167 @@
+body {
+  background-color: #0b0b0b;
+}
+
+.left-side {
+  margin-top: 100px;
+}
+
+#dumbgram-text {
+  width: 381px !important;
+  height: 124px !important;
+  margin-top: 100px;
+}
+
+#landing-text {
+  /* position: absolute; */
+  width: 457px;
+  height: 152px;
+  left: 139px;
+  top: 350px;
+  margin-top: 90px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 76px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#landing-text-2 {
+  /* position: absolute; */
+  width: 381px;
+  height: 50px;
+  left: 139px;
+  top: 519px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #6a6a6a;
+}
+
+#all-button {
+  display: flex;
+}
+
+#button:focus {
+  outline: none !important;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+}
+
+#button {
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  font-family: Avenir;
+  font-weight: 900px;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  width: 135px;
+  height: 40px;
+  margin-top: 30px;
+
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+  border-radius: 5px;
+}
+
+#button-2:hover {
+  background-color: #0b0b0b;
+}
+
+#button-2:focus {
+  outline: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background-color: black;
+}
+#button-2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900px;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 100px;
+
+  width: 135px;
+  height: 40px;
+  border: none;
+  background-color: black;
+
+  border-radius: 5px;
+}
+
+.Rectagle1:hover,
+.Rectagle2:hover,
+.Rectagle3:hover,
+.Rectagle4:hover,
+.Rectagle5:hover,
+.Rectagle6:hover,
+.Rectagle7:hover,
+.Rectagle8:hover {
+  box-shadow: 2px 2px 20px rgb(80, 80, 80);
+}
+
+.Rectagle1 {
+  width: 85%;
+  margin-top: 100px;
+  margin-left: 48px;
+  transition: transform 0.2s;
+}
+
+.Rectagle2 {
+  width: 85%;
+  margin-top: 100px;
+}
+
+.Rectagle3 {
+  width: 85%;
+  margin-top: 100px;
+  margin-left: -47px;
+}
+
+.Rectagle4 {
+  width: 85%;
+  margin-left: 48px;
+  margin-top: -39.5%;
+}
+
+.Rectagle5 {
+  width: 85%;
+  margin-top: 6px;
+}
+
+.Rectagle6 {
+  width: 85%;
+  margin-top: -72%;
+  margin-left: -47px;
+}
+
+.Rectagle7 {
+  width: 85%;
+  margin-top: -85%;
+  margin-left: 20.5%;
+}
+
+.Rectagle8 {
+  width: 85%;
+  margin-top: -85%;
+  margin-left: 90%;
+}

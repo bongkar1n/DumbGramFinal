@@ -1,0 +1,146 @@
+.find-feeds {
+  width: 450px !important;
+  background-color: rgba(210, 210, 210, 0.25);
+  border: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-top: 5px;
+}
+
+.main-title-feed {
+  font-family: Avenir;
+  position: absolute;
+  font-size: 40px;
+  margin-top: 150px !important;
+}
+
+.notif-bar {
+  background-color: #0b0b0b;
+  margin-left: 30%;
+  padding-bottom: 50px;
+}
+
+.icon-notification {
+  color: #ababab;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.post-button {
+  margin-top: 5px;
+  width: 50px;
+  height: 40px;
+  /* background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%); */
+  border: none;
+  font-size: 14px;
+  margin-left: 10px;
+  padding-left: 25px !important;
+}
+
+.icon-plus {
+  font-size: 12px;
+}
+
+.plus {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 7px !important;
+  padding-left: 7px !important;
+}
+
+.create {
+  margin-top: -30px !important;
+}
+
+.card-feed {
+  background-color: #0b0b0b;
+  justify-content: space-around;
+}
+
+.img-feed {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-box {
+  width: 289px;
+  height: 90px !important;
+  margin-left: -18px;
+  margin-top: -10px;
+  background-color: white !important;
+}
+
+.card-profile {
+  width: 85%;
+  margin-top: -80%;
+  margin-left: 7.5%;
+  border-radius: 50%;
+}
+
+.card-box-profile {
+  width: 25px;
+  height: 25px;
+  /* background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%); */
+  margin-top: 12px;
+  position: absolute;
+  margin-left: -16px;
+  border-radius: 50%;
+}
+
+.card-icon {
+  color: white;
+  margin-top: 4% !important;
+  position: absolute;
+  color: #ababab;
+}
+
+.card-bodys {
+  margin-top: -30px;
+}
+
+.comment {
+  margin-left: -25px;
+}
+
+.heart {
+  margin-left: -55px;
+}
+
+.like {
+  position: absolute;
+  margin-left: 60%;
+  font-size: 14px;
+  color: #ababab;
+}
+
+.name-post {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -8px;
+}
+
+.masonry-holder {
+  columns: 3;
+  column-gap: 12px;
+  margin-top: 30px;
+}
+
+.masonry-holder .card-feed {
+  display: inline-block;
+  margin-bottom: -10%;
+}
+
+.nav-like {
+  width: 107% !important;
+  height: 30px;
+}
+
+.like-amount {
+  color: #ababab;
+  margin-top: 10px;
+  font-size: 12px;
+}

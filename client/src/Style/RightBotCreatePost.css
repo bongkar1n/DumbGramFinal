@@ -1,0 +1,77 @@
+input.input-button {
+  max-width: 170px;
+}
+
+.input-button {
+  color: transparent;
+}
+
+.input-button::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.input-button::before {
+  content: "Upload Photos or Video";
+  display: inline-block;
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+.input-button:hover::before {
+  border-color: black;
+}
+
+.input-button:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.container-image-preview {
+  height: 600px;
+  justify-content: center !important;
+}
+
+.main-image-preview {
+  max-height: 500px;
+}
+.post-button-1 {
+  content: Upload Photos or Video;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+  border-radius: 5px;
+  width: 180px;
+  height: 50px;
+  top: 25px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+.post-button-2 {
+  background: linear-gradient(90deg, #4dd4f7 0%, #9090fb 36.46%, #ff6b81 71.35%, #fbdf63 100%);
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  top: 25px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0em;
+
+  float: right;
+  display: block;
+}

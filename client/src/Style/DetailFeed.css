@@ -1,0 +1,28 @@
+.detail-profile {
+  width: 30%;
+  margin-top: 25%;
+}
+
+.detail-profile-image {
+  width: 30%;
+  margin-top: 25%;
+  object-fit: cover !important;
+}
+.detail-profile-name {
+  color: white;
+  margin-top: 25%;
+  margin-left: -80%;
+  text-decoration: none !important;
+}
+
+.detail-profile-comment {
+  color: white;
+  font-size: 14px;
+  margin-left: 18%;
+  margin-top: -5%;
+}
+
+.first-row-line {
+  border-bottom: 1px solid white;
+  padding-bottom: 5%;
+}
